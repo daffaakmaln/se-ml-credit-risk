@@ -1,0 +1,40 @@
+# Rahasia & environment
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Database lokal
+*.sqlite3
+*.db
+pgdata/
+
+# Notebook
+.ipynb_checkpoints/
+
+# Model & data besar (opsional, sesuaikan)
+ml/data/raw/
+# ml/models/*.joblib
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
