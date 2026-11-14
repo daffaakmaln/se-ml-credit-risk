@@ -38,3 +38,5 @@ ml/data/raw/
 Thumbs.db
 .vscode/
 .idea/
+
+model_credit_risk_idr.pkl
